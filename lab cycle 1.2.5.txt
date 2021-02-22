@@ -1,0 +1,6 @@
+def replace(str):
+	first=str[0]
+	modified=str[i].replace(first,"$')
+	print(first+modified)
+str=input("enter a string")
+replace(str)

@@ -1,0 +1,11 @@
+list=[]
+n=int(input("enter the number of elements"))
+print("enter the numbers")
+for iin range (0,n):
+  a=int(input())
+  list.append(a)
+print("the elements are")
+print("the positive numbers are")
+for iin list:
+  if (0<i):
+     print(i)

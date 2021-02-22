@@ -1,0 +1,22 @@
+list1_1=[1,4,6,3,7]
+list1_2=[3,7,9,8,4,2,5]
+
+length_1 = len(list_1)
+length_2 = len(list_2)
+if (length_1==length_2):
+	print("lists are of same length")
+else
+	print("lists are of different length")
+
+sum_1=sum(list_1)
+sum_2=sum(list_2)
+if(sum_1==sum_2):
+	print("list sums to equal value")
+else:
+	print("list sums  to diffenrnt values")
+
+op=any(check in list_1 for check in list_2)
+if (op==true):
+	print("common value",set(list_1).intersection(set(list_2)))
+else:
+	print("no common value")

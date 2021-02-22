@@ -1,0 +1,7 @@
+list=[]
+vowels=['a','e','i','o','u']
+string=input("enter the  word")
+for i in string
+	if (i in vowel)and(i not in list):
+		list.append(i)
+	print("vowel present in the string are ",list)

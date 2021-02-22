@@ -1,0 +1,7 @@
+list=['apple','aligator','ant','banana']
+c=0
+for i in list:
+	for j in i:
+		if j=='a':
+			c=c+1
+print("the total occurence of a in list is ",c)
