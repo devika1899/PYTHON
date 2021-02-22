@@ -1,0 +1,3 @@
+str1='mouse'
+str2='cat'
+print(str2[0]+str1[1:],"",str1[0]+str2[1:])

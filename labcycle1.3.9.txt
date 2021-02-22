@@ -1,0 +1,3 @@
+count={'apple':20,'banana':130,'carrot':10}
+print(sorted(count.items()))
+print(sorted(count.items(),reverse=true))

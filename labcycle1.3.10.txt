@@ -1,0 +1,5 @@
+d1={'a':5,'b':10,'c':15}
+d2={'d';20,'e':25,'f':30}
+temp=d1.copy()
+temp.update(d2)
+print(temp)
