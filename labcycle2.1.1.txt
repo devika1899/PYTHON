@@ -1,0 +1,10 @@
+num=int(input("enter a number"))
+fact=1
+if(num<0):
+	print("factorial doesnt exist")
+elif(num==0):
+	print("factoraialof 0 is 1")
+else:
+	for iin range (2,num+1);
+		fact=fact*i
+	print("factorial of" num "is",fact)
