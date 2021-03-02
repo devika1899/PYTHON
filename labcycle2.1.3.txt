@@ -1,0 +1,6 @@
+list=[5,66,7,18,9,5]
+sum=0
+for i in list:
+	sum=sum+i
+print("total of list is",sum)
+

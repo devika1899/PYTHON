@@ -1,0 +1,17 @@
+n1=0
+n2=1
+count=0
+limit=int(input ("enter the limit"))
+if limit<0:
+	print("enter a positive number")
+elif limit==1:
+	print("fibonacci series upto",limit,"is")
+	print(n2)
+else:
+	print("fibonacci series upto",limit,"is")
+	while count<limit:
+		print(n1,end="")
+		temp=n1+n2
+		n1=n2
+		n2=temp
+		count=count+1
